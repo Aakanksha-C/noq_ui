@@ -104,7 +104,7 @@
             </span>
 
             <button (click)="onClickRegister()" [ngClass]="errorsPresent() ? 
-        'disabled bg-slate-500' : 'bg-sky-700  transition-all duration-200 hover:cursor-pointer active:-translate-y-1 '"
+        'disabled bg-red-500' : 'bg-red-600  transition-all duration-200 hover:cursor-pointer active:-translate-y-1 '"
                 [disabled]="errorsPresent()" 
                 class="rounded-md px-6 py-2 text-xl text-white mt-2">
                 Register
