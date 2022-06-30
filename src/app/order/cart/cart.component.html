@@ -54,12 +54,12 @@
                     Rs. {{ price.total }}
                 </span>
             </span>
-            <span *ngIf="price.commission != 0" class="text-md flex items-center justify-center mt-1">Commission -
+            <span *ngIf="price.commission != 0" class="text-sm flex items-center justify-center mt-1">Convenience Charge -
                 <span class=" ml-2 text-blue-500 flex items-center justify-center font-semibold">
                     Rs. {{ price.commission }}
                 </span>
             </span>
-            <span class="text-md flex items-center justify-center mt-4">Total Price to pay - </span>
+            <span class="text-md flex items-center justify-center mt-4">Total Order Value - </span>
             <span class="font-bold flex items-center justify-center mt-2 text-lg">
                 <span class="text-blue-500">
                     Rs. {{ price.total + price.commission }} /-
